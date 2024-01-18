@@ -18,9 +18,13 @@
 }
 
 body {
+  position: absolute;
+  top: 0;
+  left: 0;
   min-height: 100vh;
-  min-width: 100vw;
+  width: 100vw;
   color: rgb(var(--foreground-rgb));
   background:  var(--main-c-black);
   overflow-x: hidden;
+  z-index: 100;
 }
