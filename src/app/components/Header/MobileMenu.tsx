@@ -13,15 +13,14 @@ export const MobileMenu = ({ open }: MenuProps) => {
 
   useEffect(() => {
     open ? setPosition("-49px") : setPosition("-110vw");
-    console.log(open);
   }, [open]);
 
   return (
     <div
       className={`flex flex-col absolute px-[49px] pt-[54px] w-screen h-screen right-[${position}] top-12 transition-[right] duration-300 ease-out border-t-[1px] border-c8`}
     >
-      <section className='flex flex-col gap-[1rem] min-w-[336px] mx-auto mb-10'>
-        <button className='flex items-center justify-center gap-4 px-[13px] py-2.5 rounded border border-neutral-50 font-semibold uppercase text-lg leading-normal tracking-widest'>
+      <section className='w-full max-w-[336px] py-7 flex flex-col gap-[1rem] mb-10 mx-auto'>
+        <button className='flex justify-center gap-4 px-[13px] py-2.5 rounded border border-neutral-50 font-semibold uppercase text-lg leading-normal tracking-widest'>
           <Image src={iconUser} alt='Entrar' width={25.3} height={24} />
           <p>Entrar</p>
         </button>
@@ -29,9 +28,9 @@ export const MobileMenu = ({ open }: MenuProps) => {
           <p>Assinar Agora</p>
         </button>
       </section>
-      <section className='bg-c8 rounded-lg  max-w-[336px] mx-auto py-7 text-left divide-y divide-c5'>
+      <section className='bg-c8 rounded-lg max-w-[336px] mx-auto mb-16 py-7 text-left divide-y divide-c5'>
         <h2 className='text-base font-bold pb-5 px-7 border-b text-doc'>Produtos</h2>
-        <section className='px-7 pt-8 flex flex-col gap-6'>
+        <section className='px-7 pt-8 flex flex-col gap-6 mx-auto'>
           <a className='cursor-pointer'>
             <h3 className='flex justify-between mb-2 text-doc text-base font-semibold'>
               Carteiras <IoArrowForward size={18} />
@@ -61,10 +60,10 @@ export const MobileMenu = ({ open }: MenuProps) => {
           </a>
         </section>
       </section>
-      <nav className='flex flex-col mx-auto divide-y divide-c8 px-7 text-left text-base font-bold text-doc'>
-        <a className='px-7 py-6 min-w-[336px] cursor-pointer'>Blog</a>
-        <a className='px-7 py-6 min-w-[336px] cursor-pointer'>Quem somos</a>
-        <a className='px-7 py-6 min-w-[336px] cursor-pointer'>Conteúdos</a>
+      <nav className='w-full mx-auto flex flex-col divide-y items-center divide-c8 text-left text-base font-bold text-doc'>
+        <a className='w-full max-w-[336px] py-6 cursor-pointer'>Blog</a>
+        <a className='w-full max-w-[336px] py-6 cursor-pointer'>Quem somos</a>
+        <a className='w-full max-w-[336px] py-6 cursor-pointer'>Conteúdos</a>
       </nav>
     </div>
   );

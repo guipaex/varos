@@ -15,15 +15,14 @@ export default function MenuHeaderContent() {
     <div className='flex desktop:hidden relative p-x[49px]'>
       {menuVisible ? (
         <>
-          <button>
-            {" "}
+          <button className='z-10'>
             <IoClose onClick={() => setMenuVisible(!menuVisible)} size={32} />{" "}
           </button>
           <MobileMenu open={menuVisible} />
         </>
       ) : (
         <>
-          <button>
+          <button className='z-10'>
             <IoMenu onClick={() => setMenuVisible(!menuVisible)} size={32} />{" "}
           </button>
           <MobileMenu open={menuVisible} />
