@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         'flGreen': '#19C819',
+        'cBlack': '#131313',
         'doc': '#FAFAFA',
         'c5':'#B0B7BE',
         'c8': '#222729',
