@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Header from "./components/Header/Header";
 
 export default function Home() {
-  return <main className='w-[1440px] h-[3751px] relative bg-neutral-900"'></main>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
