@@ -1,9 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import logo from "../../assets/logo.svg";
-import iconUser from "../../assets/User.svg";
-import iconBuy from "../../assets/shopping-cart.svg";
 import { useState } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
 import MobileMenu from "./MobileMenu";
