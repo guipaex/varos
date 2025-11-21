@@ -17,7 +17,7 @@ export const MobileMenu = ({ open }: MenuProps) => {
 
   return (
     <div
-      className={`flex flex-col absolute px-[49px] pt-[54px] w-screen h-screen right-[${position}] top-12 transition-[right] duration-300 ease-out border-t-[1px] border-c8`}
+      className={`bg-cBlack flex flex-col absolute px-[49px] pt-[54px] w-screen h-fit right-[${position}] top-12 transition-[right] duration-300 ease-out border-t-[1px] border-c8`}
     >
       <section className='w-full max-w-[336px] py-7 flex flex-col gap-[1rem] mb-10 mx-auto'>
         <button className='flex justify-center gap-4 px-[13px] py-2.5 rounded border border-neutral-50 font-semibold uppercase text-lg leading-normal tracking-widest'>
