@@ -10,11 +10,15 @@ export const metadata: Metadata = {
   description: "Created using Next, TypeScript & Tailwind",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang='pt-br'>
+    <html lang="pt-br">
       <head>
-        <link rel='icon' href='/favicon.svg' />
+        <link rel="icon" href="/favicon.svg" />
       </head>
       <body className={redHat.className}>{children}</body>
     </html>
