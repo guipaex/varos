@@ -49,7 +49,7 @@ const Container = ({ children }: { children: React.ReactNode }) => {
         bg-gradient-to-r 
         from-[#4D5358]
         to-[#4D535800]
-        rounded-2xl
+        rounded-[32px]
         max-w-[500px]
         p-[1px]
         mt-[88px]
@@ -58,7 +58,7 @@ const Container = ({ children }: { children: React.ReactNode }) => {
       <div
         className="
         flex
-        rounded-2xl
+        rounded-[32px]
         bg-cBlack
         px-[46px]
         py-6
