@@ -5,7 +5,7 @@ import HeroContent from "./HeroContent";
 
 export default function Hero() {
   return (
-    <Section>
+    <Section className="min-h-[90vh]">
       <HeroContent />
       <Image src={cardHero} alt="products" className="flex" />
     </Section>

@@ -1,10 +1,16 @@
-export default function Section({ children }: { children: React.ReactNode }) {
+export default function Section({
+  className,
+  children,
+}: {
+  className?: string;
+  children: React.ReactNode;
+}) {
   return (
     <section
-      className="
+      className={`
                 max-w-[1440px]
                 min-w-[390px]
-                h-[90vh]
+                h-fit
                 mt-16
                 mx-auto
                 flex
@@ -15,7 +21,8 @@ export default function Section({ children }: { children: React.ReactNode }) {
                 desktop:px-36
                 tablet:px-6
                 mobile:flex-col
-                "
+                ${className}
+                `}
     >
       {children}
     </section>
