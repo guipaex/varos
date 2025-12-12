@@ -9,7 +9,7 @@ interface SelectorProps {
   //   handleClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-export default function Selector({ head, options }: SelectorProps) {
+export default function Selector({ head, options = [] }: SelectorProps) {
   //   const selectors = Object.keys(items);
 
   return (
