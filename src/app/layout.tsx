@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Red_Hat_Display } from "next/font/google";
 import "./globals.css";
-import favicon from "./favicon.svg";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const redHat = Red_Hat_Display({ subsets: ["latin"] });
 
@@ -20,7 +21,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.svg" />
       </head>
-      <body className={redHat.className}>{children}</body>
+      <body className={redHat.className}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

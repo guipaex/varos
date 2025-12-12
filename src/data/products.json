@@ -1,0 +1,92 @@
+{
+  "Carteiras": [
+    {
+      "iconFile": "selecao.svg",
+      "name": "Carteira Seleção",
+      "title": "A combinação perfeita pra você aproveitar a virada da Bolsa.",
+      "description": "Juntamos o que há de melhor nas Carteiras VAROS: uma estratégia completa para você ter resultados exponenciais.",
+      "screenshotUrl": "graph.png"
+    },
+    {
+      "iconFile": "fator.svg",
+      "name": "Carteira FATOR",
+      "title": "A única carteira de ações 100% automatizada do Brasil está pronta para te entregar retornos extraordinários",
+      "description": "Acesse a Carteira Fator e copie meus investimentos pessoais de forma automatizada e que só em 2025 renderam 44%",
+      "screenshotUrl": "graph.png"
+    },
+    {
+      "iconFile": "dividendos.svg",
+      "name": "Carteira Dividendos",
+      "title": "Os resultados do futuro vem das suas ações no presente.",
+      "description": "Carteira VAROS Dividendos – Uma seleção das melhores pagadoras de dividendos da bolsa para você viver de renda passiva.",
+      "screenshotUrl": "graph.png"
+    },
+    {
+      "iconFile": "essencial.svg",
+      "name": "Carteira Essencial",
+      "title": "Invista na carteira de ações que subiu +49% desde 2023.",
+      "description": "Ganhe acesso à lista de ações que você deve comprar para ter resultados como esse",
+      "screenshotUrl": "graph.png"
+    },
+    {
+      "iconFile": "fii.svg",
+      "name": "Carteira de FIIs",
+      "title": "Receba aluguéis todo mês mesmo sem ter um imóvel.",
+      "description": "Sem trabalhar, sem falar com inquilino e sem perder tempo. Descubra como👇",
+      "screenshotUrl": "graph.png"
+    },
+    {
+      "iconFile": "small-caps.svg",
+      "name": "Carteira Small Caps",
+      "title": "As maiores oportunidades se escondem atrás das menores empresas.",
+      "description": "Invista nas ações que estão fora do radar do mercado e saiba com antecedência quais os maiores potenciais de retorno da Bolsa.",
+      "screenshotUrl": "graph.png"
+    }
+  ],
+  "Cursos": [
+    {
+      "iconFile": "vza.svg",
+      "name": "Valuation 2.0",
+      "title": "Aprenda a descobrir quanto vale uma ação",
+      "description": "Um curso que te leva do zero ao avançado na habilidade essencial para analistas e investidores de sucesso..",
+      "screenshotUrl": "graph.png"
+    },
+    {
+      "iconFile": "codigopy.svg",
+      "name": "Código.py",
+      "title": "Domine e crie modelos vencedores para ganhar muito mais dinheiro nos seus investimentos — conquiste retornos acima da média do mercado brasileiro.",
+      "description": "O programa mais completo do mercado com o passo a passo, do zero ao avançado, para você dominar modelagem financeira, machine learning e manipulação de dados. Tudo isso mesmo que nunca tenha programado na vida.",
+      "screenshotUrl": "graph.png"
+    },
+    {
+      "iconFile": "dashpy.svg",
+      "name": "Dash.py",
+      "title": "Use o Python no mercado financeiro para transformar horas em minutos.",
+      "description": "Construa automações, coletas de dados e dashboards que tornam seu processo de decisão nos investimentos mais rápido e lucrativo.",
+      "screenshotUrl": "graph.png"
+    },
+    {
+      "iconFile": "0100k.svg",
+      "name": "Curso Reels",
+      "title": "Do zero aos 100k em 90 dias",
+      "description": "Aprenda o modelo que eu usei no meu instagram para ganhar 100 mil seguidores em 90 dias sem gastar nada com anúncios ou fazer dancinhas do tiktok - apenas com reels que viralizaram já na primeira semana.",
+      "screenshotUrl": "graph.png"
+    },
+    {
+      "iconFile": "enciclopedia-fii.svg",
+      "name": "Enciclopédia de FII",
+      "title": "Analise Fundos Imobiliários como um profissional - conquiste a sua independência e liberdade financeira",
+      "description": "Encontre os melhores FIIs e esteja sempre um passo a frente dos outros investidores, mesmo que você seja um completo iniciante.",
+      "screenshotUrl": "graph.png"
+    }
+  ],
+  "Consultoria": [
+    {
+      "iconFile": "selecao.svg",
+      "name": "Carteira Seleção",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ",
+      "screenshotUrl": "graph.png"
+    }
+  ]
+}

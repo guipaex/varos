@@ -1,15 +1,15 @@
 import Contact from "./Sections/Contact";
-import Intro from "./Sections/Intro";
-import Footer from "./components/Footer";
-import Header from "./components/Header/Header";
+import Hero from "./Sections/Hero";
+import ProductsSection from "./Sections/Products";
+import TestmonialsSection from "./Sections/Testmonials";
 
 export default function Home() {
   return (
-    <main className='min-h-[100vh] w-full overflow-x-hidden'>
-      <Header />
-      <Intro />
+    <main className="min-h-[100vh] w-full overflow-x-hidden">
+      <Hero />
+      <ProductsSection />
+      <TestmonialsSection />
       <Contact />
-      <Footer />
     </main>
   );
 }
